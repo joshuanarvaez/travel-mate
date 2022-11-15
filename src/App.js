@@ -64,6 +64,7 @@ const App = () => {
       <CssBaseline />
       <Header onPlaceChanged={onPlaceChanged} onLoad={onLoad} />
       <Grid container spacing={3} style={{ width: '100%' }}>
+      {/* This grid holds our List component. Will take 12 spaces on extra small devices and 4 spaces on medium devices and larger */}
         <Grid item xs={12} md={4}>
           <List
             isLoading={isLoading}
@@ -75,6 +76,7 @@ const App = () => {
             setRating={setRating}
           />
         </Grid>
+         {/* This grid holds our Map component. Will take 12 spaces on extra small devices and 8 spaces on medium devices and larger */}
         <Grid item xs={12} md={8} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Map
             setChildClicked={setChildClicked}

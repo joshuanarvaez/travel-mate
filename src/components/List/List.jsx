@@ -23,6 +23,7 @@ const List = ({ places, type, setType, rating, setRating, childClicked, isLoadin
         <>
           <FormControl className={classes.formControl}>
             <InputLabel id="type">Type</InputLabel>
+            {/* type state is set when user clicks on a MenuItem - e.target.value */}
             <Select id="type" value={type} onChange={(e) => setType(e.target.value)}>
               <MenuItem value="restaurants">Restaurants</MenuItem>
               <MenuItem value="attractions">Attractions</MenuItem>
@@ -30,6 +31,7 @@ const List = ({ places, type, setType, rating, setRating, childClicked, isLoadin
           </FormControl>
           <FormControl className={classes.formControl}>
             <InputLabel id="rating">Rating</InputLabel>
+            {/* rating state is set when user clicks on a MenuItem - e.target.value */}
             <Select id="rating" value={rating} onChange={(e) => setRating(e.target.value)}>
               <MenuItem value="">All</MenuItem>
               <MenuItem value="3">Above 3.0</MenuItem>
@@ -37,6 +39,7 @@ const List = ({ places, type, setType, rating, setRating, childClicked, isLoadin
               <MenuItem value="4.5">Above 4.5</MenuItem>
             </Select>
           </FormControl>
+          {/* This grid contains our place cards. Only if we have places, map over them. In each iteration of the map callback function, it has one new place. We instantly return a grid with our PlaceDetails component. We then pass a place to the component, place={place}.  */}
           <Grid container spacing={3} className={classes.list}>
             {places?.map((place, i) => (
               <Grid ref={elRefs[i]} key={i} item xs={12}>
