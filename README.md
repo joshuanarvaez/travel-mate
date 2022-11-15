@@ -1,4 +1,4 @@
-# Name of Project
+# Name of Project - Travel Mate
 
 ## Table of Contents
 
@@ -10,12 +10,13 @@
 
 ## Overview
 
-<!-- TODO: Add a screenshot of the live project.
-    1. Link to a 'live demo.'
-    2. Describe your overall experience in a couple of sentences.
-    3. List a few specific technical things that you learned or improved on.
-    4. Share any other tips or guidance for others attempting this or something similar.
- -->
+<!-- TODO: Add a screenshot of the live project. -->
+
+ Live demo: https://jn-travel-mate.netlify.app/ 
+
+ We did not follow best practices are far as state management goes with this project. Redux toolkit or React Context is more suitable especially if we needed to go down further levels into components. But, for our purposes, it worked fine. 
+ 
+ Things we did learn: Making API calls with Axios, Google Maps API and geolocations, managing our API's on Google Cloud console and Rapid API console, storing API keys in environment variables, what a deprecated API is and what it means for a project, how to use useEffects, Material UI styled components -  how to override and update styling, theming. 
 
 ### Built With
 Google Maps API - https://developers.google.com/maps 
@@ -24,25 +25,17 @@ React JS - https://reactjs.org/
 Node JS - https://nodejs.org/en/ 
 MaterialUI - https://mui.com/ 
 
-<!-- TODO: List any MAJOR libraries/frameworks (e.g. React, Tailwind) with links to their homepages. -->
-
 ## Dependencies
 npm install @material-ui/core @material-ui/icons @material-ui/lab @react-google-maps/api axios google-map-react
 
 ## Features
-
-This application enables users to search/filter restaurants and attractions near them. Users can also explore restaurants and attractions anywhere in the world by updating the the search box with a new location or simply dragging their cursor on the map. Clicking on the restaurant or attraction card on the map gives the user more information on that particular place. We accomplish this with Geolocation and Google Maps API.
-
-<!-- TODO: List what specific 'user problems' that this application solves. -->
+This application enables users to search/filter restaurants and attractions near them. Users can also explore restaurants and attractions anywhere in the world by updating the search box with a new location or simply dragging their cursor on the map. Clicking on the restaurant or attraction card on the map gives the user more information on that particular place. We accomplish this with geolocation, Google Maps API, and Travel Advisor API.
 
 ## Contact
 Website - https://jhn-portfolio.netlify.app/
 LinkedIn - https://www.linkedin.com/in/joshua-narvaez/ 
-<!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
 
 ## Acknowledgements
 Adrian Hajdin - JavascriptMastery JSM
 Github - https://github.com/adrianhajdin/project_travel_advisor 
 Project 1: https://www.youtube.com/watch?v=GDa8kZLNhJ4
-
-<!-- TODO: List any blog posts, tutorials or plugins that you may have used to complete the project. Only list those that had a significant impact. Obviously, we all 'Google' stuff while working on our things, but maybe something in particular stood out as a 'major contributor' to your skill set for this project. -->

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// Our API calls
+// We made this call dynamic by passing type as a parameter and making our call a template string. 
 export const getPlacesData = async (type, sw, ne) => {
     try {
         const { data: { data } } = await axios.get(`https://travel-advisor.p.rapidapi.com/${type}/list-in-boundary`, {
@@ -22,22 +22,3 @@ export const getPlacesData = async (type, sw, ne) => {
         console.log(error)
     }
 };
-
-export const getWeatherData = async (lat, lng) => {
-    try {
-      if (lat && lng) {
-        const { data } = await axios.get('https://yahoo-weather5.p.rapidapi.com/weather', {
-          params: { lon: lng, lat: lat, },
-          headers: {
-            'x-rapidapi-key': process.env.REACT_APP_WEATHER_API_KEY,
-            'x-rapidapi-host': 'yahoo-weather5.p.rapidapi.com',
-          },
-        });
-  
-        return data;
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
