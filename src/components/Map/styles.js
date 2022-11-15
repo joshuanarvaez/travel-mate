@@ -2,10 +2,10 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
   paper: {
-    padding: '1em', display: 'flex', flexDirection: 'column', justifyContent: 'center', width: '100px',
+    padding: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'center', width: '100px',
   },
   mapContainer: {
-    height: '90vh', width: '100%', marginTop: '1em'
+    height: '85vh', width: '100%', margin: '5% 6% 5% 6%',
   },
   markerContainer: {
     position: 'absolute', transform: 'translate(-50%, -50%)', zIndex: 1, '&:hover': { zIndex: 2 },
