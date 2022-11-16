@@ -25,6 +25,7 @@ Rapid API - Travel Advisor: https://rapidapi.com/apidojo/api/travel-advisor/
 React JS: https://reactjs.org/
 Node JS: https://nodejs.org/en/ 
 MaterialUI: https://mui.com/ 
+Netlify: https://www.netlify.com/
 
 ## Dependencies
 npm install @material-ui/core @material-ui/icons @material-ui/lab @react-google-maps/api axios google-map-react
