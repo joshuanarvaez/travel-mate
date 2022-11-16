@@ -9,8 +9,7 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Overview
-
-<!-- TODO: Add a screenshot of the live project. -->
+![Alt text](/src/assets/screenshot.png?raw=true "Travel Mate Screenshot")
 
  Live demo: https://jn-travel-mate.netlify.app/ 
 
