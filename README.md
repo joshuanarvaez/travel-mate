@@ -22,9 +22,12 @@
 ### Built With
 Google Maps API: https://developers.google.com/maps 
 Rapid API - Travel Advisor: https://rapidapi.com/apidojo/api/travel-advisor/
+
 React JS: https://reactjs.org/
 Node JS: https://nodejs.org/en/ 
 MaterialUI: https://mui.com/ 
+
+Axios: https://axios-http.com/docs/intro 
 Netlify: https://www.netlify.com/
 
 ## Dependencies
