@@ -1,4 +1,4 @@
-# Name of Project - Travel Mate
+# Project - Travel Mate
 
 ## Table of Contents
 
