@@ -18,11 +18,11 @@
  Things we did learn: Making API calls with Axios, Google Maps API and geolocations, managing our API's on Google Cloud console and Rapid API console, storing API keys in environment variables, what a deprecated API is and what it means for a project, how to use useEffects, Material UI styled components -  how to override and update styling, theming. 
 
 ### Built With
-Google Maps API - https://developers.google.com/maps 
-Rapid API - Travel Advisor - https://rapidapi.com/apidojo/api/travel-advisor/
-React JS - https://reactjs.org/
-Node JS - https://nodejs.org/en/ 
-MaterialUI - https://mui.com/ 
+Google Maps API: https://developers.google.com/maps 
+Rapid API - Travel Advisor: https://rapidapi.com/apidojo/api/travel-advisor/
+React JS: https://reactjs.org/
+Node JS: https://nodejs.org/en/ 
+MaterialUI: https://mui.com/ 
 
 ## Dependencies
 npm install @material-ui/core @material-ui/icons @material-ui/lab @react-google-maps/api axios google-map-react
