@@ -37,7 +37,7 @@ npm install @material-ui/core @material-ui/icons @material-ui/lab @react-google-
 This application enables users to search/filter restaurants and attractions near them. Users can also explore restaurants and attractions anywhere in the world by updating the search box with a new location or simply dragging their cursor on the map. Clicking on the restaurant or attraction card on the map gives the user more information on that particular place. We accomplish this with geolocation, Google Maps API, and Travel Advisor API.
 
 ## Contact
-Website - https://jhn-portfolio.netlify.app/
+Website - https://www.wowjoshcodes.com/
 LinkedIn - https://www.linkedin.com/in/joshua-narvaez/ 
 
 ## Acknowledgements
