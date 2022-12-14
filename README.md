@@ -1,5 +1,4 @@
 # Project: Travel Mate
-
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
