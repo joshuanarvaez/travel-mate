@@ -6,6 +6,7 @@
 - [Dependencies](#dependencies)
 - [What We Learned](#what-we-learned)
 - [Acknowledgements](#acknowledgements)
+
 ## Overview
 ![Alt text](/src/assets/screenshot.png?raw=true "Travel Mate Screenshot")
 
