@@ -13,7 +13,7 @@
  Live demo: https://jn-travel-mate.netlify.app/ 
  
 ## Features
-This application enables users to search/filter restaurants and attractions near them. Users can also explore restaurants and attractions anywhere in the world by updating the search box with a new location or simply dragging their cursor on the map. Clicking on the restaurant or attraction card on the map gives the user more information on that particular place. We accomplish this with geolocation, Google Maps API, and Travel Advisor API.
+This application enables users to search/filter restaurants and attractions near them. Users can also explore restaurants and attractions anywhere in the world by updating the search box with a new location or simply dragging their cursor on the map. Clicking on the restaurant or attraction card on the map gives the user more information on that particular place. We accomplish this with geolocation, Google Maps API, Google Places API, and Travel Advisor API.
 
 ## Built With
 Google Maps API: https://developers.google.com/maps   
